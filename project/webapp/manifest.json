@@ -89,28 +89,28 @@
       },
       "routes": [
         {
-          "name": "RouteView1",
-          "pattern": "RouteView1",
+          "name": "RouteList",
+          "pattern": "RouteList",
           "target": [
-            "TargetView1"
+            "TargetList"
           ]
         }
       ],
       "targets": {
-        "TargetView1": {
+        "TargetList": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "View1",
-          "viewName": "View1"
+          "viewId": "List",
+          "viewName": "List"
         }
       }
     },
     "rootView": {
-      "viewName": "project.view.View1",
+      "viewName": "project.view.List",
       "type": "XML",
       "async": true,
-      "id": "View1"
+      "id": "List"
     }
   }
 }

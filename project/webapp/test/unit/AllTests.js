@@ -1,5 +1,5 @@
 sap.ui.define([
-	"project/test/unit/controller/View1.controller"
+	"project/test/unit/controller/List.controller"
 ], function () {
 	"use strict";
 });
